@@ -5,8 +5,8 @@ The core is a single **pure function** — feed it staff, requests and a require
 curve, and it returns a legal, optimized month-long roster. No database, no I/O, no global
 state, which makes it easy to test, embed, and reason about.
 
-This is an extracted, fully generalized core of a production shift-scheduling system the
-author runs across multiple retail sites. All data in this repo is synthetic.
+This is an extracted, fully generalized core of a shift-scheduling system the author runs
+in production. All data in this repo is synthetic.
 
 ## Why this is interesting
 
