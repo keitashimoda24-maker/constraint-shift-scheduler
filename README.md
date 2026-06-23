@@ -1,5 +1,7 @@
 # constraint-shift-scheduler
 
+[![CI](https://github.com/keitashimoda24-maker/constraint-shift-scheduler/actions/workflows/ci.yml/badge.svg)](https://github.com/keitashimoda24-maker/constraint-shift-scheduler/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+
 A monthly staff-shift scheduler built on [Google OR-Tools CP-SAT](https://developers.google.com/optimization/cp/cp_solver).
 The core is a single **pure function** — feed it staff, requests and a required-headcount
 curve, and it returns a legal, optimized month-long roster. No database, no I/O, no global
